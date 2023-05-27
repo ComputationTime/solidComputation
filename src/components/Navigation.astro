@@ -1,9 +1,31 @@
 ---
+const nav_options = [
+  { href: "/", name: "Home", new_page: false },
+  { href: "/projects/", name: "Projects", new_page: false },
+  { href: "/public/resume.pdf", name: "Resume", new_page: true },
+  { href: "/about/", name: "About", new_page: false },
+];
 ---
 
-<div class="nav-links">
-  <a href="/">Home</a>
-  <a href="/projects/">Projects</a>
-  <a href="/public/resume.pdf" target="_blank">Resume</a>
-  <a href="/about/">About</a>
+<div
+  class="flex justify-between md:px-20 py-10 max-w-[3000px] text-3xl mx-auto text-center"
+>
+  <div></div>
+  {
+    nav_options.map((nav_option) => (
+      <a
+        href={nav_option.href}
+        target={nav_option.new_page ? "_blank" : "_self"}
+        class={
+          "flex-1 underline underline-offset-[7px] decoration-[1.5px] " +
+          (Astro.url.pathname == nav_option.href
+            ? "decoration-black"
+            : "decoration-transparent hover:decoration-black hover:transition-colors hover:duration-300 transition-colors duration-300")
+        }
+      >
+        {nav_option.name}
+      </a>
+    ))
+  }
+  <div></div>
 </div>
