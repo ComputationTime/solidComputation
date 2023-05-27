@@ -1,0 +1,16 @@
+---
+import Project from "../components/Project.astro";
+import Layout from "../layouts/Layout.astro";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const page_title = "Projects";
+---
+
+<Layout page_title={page_title}>
+  <ul>
+    {
+      allPosts.map((post) => (
+        <Project title={post.frontmatter.title} url={post.url} />
+      ))
+    }
+  </ul>
+</Layout>
