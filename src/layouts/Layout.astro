@@ -1,29 +1,27 @@
 ---
 import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+
 const page_title = Astro.props.page_title;
 ---
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
       rel="stylesheet"
     />
     <!-- end Fonts -->
-    <link rel="icon" type="image/svg+xml" href="/lambda.png" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/lambda.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{page_title}</title>
   </head>
   <body>
     <Header />
-    <h1>{page_title}</h1>
     <slot />
-    <Footer />
   </body>
 </html>

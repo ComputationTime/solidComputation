@@ -1,11 +1,12 @@
 ---
-import Greeting from "../components/Greeting";
 import Layout from "../layouts/Layout.astro";
+import Title from "../components/Title";
 
 const page_title = "Home";
+const title = "Software Developer";
 ---
 
 <Layout page_title={page_title}>
-  <h2>Index for my website</h2>
-  <Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there"]} />
+  <Title title="Software Developer" client:load />
+  <!-- <Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there"]} /> -->
 </Layout>
