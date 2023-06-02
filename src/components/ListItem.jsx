@@ -1,7 +1,7 @@
 import { createSignal } from "solid-js";
 import typeWrite from "../scripts/typeWrite";
 
-export default function Project({
+export default function ListItem({
   url,
   img_src = "/lambda.png",
   img_alt = "lambda",
@@ -21,7 +21,7 @@ export default function Project({
   }, delay * 2 + 800);
 
   return (
-    <li class="flex justify-center mb-6 font-mono min-h-[200px]">
+    <li class="flex justify-center mb-6 font-mono min-h-[200px] hover:scale-105 transition-transform">
       <a class="" href={url}>
         <div class="flex flex-col sm:flex-row w-[280px] sm:w-[580px] md:w-[700px] lg:w-[800px] border-b-2 border-gray">
           <img

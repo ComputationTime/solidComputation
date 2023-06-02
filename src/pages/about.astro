@@ -1,9 +1,7 @@
 ---
-import { createSignal } from "solid-js";
 import Layout from "../layouts/Layout.astro";
-import TypeWrite from "../scripts/typeWrite";
-import typeWrite from "../scripts/typeWrite";
 import Paragraph from "../components/Paragraph";
+import Contact from "../components/Contact";
 
 const page_title = "About Me";
 const paragraphs = [
@@ -19,38 +17,27 @@ const paragraphs = [
   <img
     src="/lambda.png"
     alt="Andre"
-    class="mx-auto border-2 border-black my-10"
+    class="mx-auto border-2 border-black mb-10 mt-20"
   />
   <h2 class="text-center text-3xl my-10 font-mono">
     <Paragraph client:load paragraph={"Hi, I'm Andre"} speed={10} />
   </h2>
   <div
-    class="w-[280px] sm:w-[580px] md:w-[700px] lg:w-[900px] xl:[1000px] mx-auto mb-28 leading-10 text-xl text-justify"
+    class="w-[280px] sm:w-[580px] md:w-[700px] lg:w-[900px] xl:[1000px] mx-auto leading-10 text-xl text-justify mb-20"
   >
     {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
 
-    <p class="text-center text-xl font-medium my-12">
+    <p
+      class="text-center text-xl font-medium p-5 my-20 border-2 border-black bg-gray-100 rounded-3xl"
+    >
       Text is great, but I think a better way to show who I am and what I value
       is to give you a list of who I admire and what I strive to be. Here are
-      some of my <a href="#" class="text-blue-500 underline">Personal Heros</a>
+      some of my <a
+        href="/heros/"
+        class="text-blue-500 underline inline-block hover:scale-105 transition-transform"
+        >Personal Heros</a
+      >
     </p>
-
-    <!-- 
-    Humboldt https://storymaps.esri.com/stories/2016/humboldt/index.html
-    Tesla
-        Noether https://jwa.org/encyclopedia/article/noether-emmy
-        von Neumann
-        Erdős
-        Galois
-        Hilbert?
-        Riemann?
-        Annie Cannon
-        Leavitt
-        Lavosier
-        Sommerfeld
-        Quantum?
-        Bragg
-
-      -->
+    <Contact client:load />
   </div>
 </Layout>

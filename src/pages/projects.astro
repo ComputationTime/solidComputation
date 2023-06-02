@@ -1,6 +1,5 @@
 ---
-import { createSignal } from "solid-js";
-import Project from "../components/Project";
+import Search from "../components/Search";
 import Layout from "../layouts/Layout.astro";
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const page_title = "Projects";
@@ -8,18 +7,6 @@ const page_title = "Projects";
 
 <Layout page_title={page_title}>
   <ul class="mt-[100px]">
-    {
-      allPosts.map((post, index) => {
-        return (
-          <Project
-            title={post.frontmatter.title}
-            url={post.url}
-            tags={post.frontmatter.tags.join(", ")}
-            delay={index * 300}
-            client:load
-          />
-        );
-      })
-    }
+    <Search client:load items={allPosts} />
   </ul>
 </Layout>

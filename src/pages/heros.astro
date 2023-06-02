@@ -1,0 +1,30 @@
+---
+import Search from "../components/Search";
+import Layout from "../layouts/Layout.astro";
+const allHeros = await Astro.glob("../pages/heros/*.md");
+const page_title = "Personal Heros";
+---
+
+<Layout page_title={page_title}>
+  <ul class="mt-[100px]">
+    <Search client:load items={allHeros} />
+  </ul>
+</Layout>
+
+<!-- 
+    Humboldt https://storymaps.esri.com/stories/2016/humboldt/index.html
+    Tesla
+        Noether https://jwa.org/encyclopedia/article/noether-emmy
+        von Neumann
+        Erdős
+        Galois
+        Hilbert?
+        Riemann?
+        Annie Cannon
+        Leavitt
+        Lavosier
+        Sommerfeld
+        Quantum?
+        Bragg
+
+      -->
