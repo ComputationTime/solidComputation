@@ -27,8 +27,14 @@ const filteredPosts = posts.filter((post) =>
   <p>Posts tagged with {tag}</p>
   <ul>
     {
-      filteredPosts.map((post) => (
-        <Project url={post.url} title={post.frontmatter.title} />
+      filteredPosts.map((post, index) => (
+        <Project
+          title={post.frontmatter.title}
+          url={post.url}
+          tags={post.frontmatter.tags.join(", ")}
+          delay={index * 200}
+          client:load
+        />
       ))
     }
   </ul>
