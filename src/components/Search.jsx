@@ -28,8 +28,9 @@ export default function Search({ items }) {
       {curr_items().map((item, index) => (
         <ListItem
           title={item.frontmatter.title}
-          url={item.url}
+          url={item.frontmatter.url ?? item.url}
           tags={item.frontmatter.tags.join(", ")}
+          new_tab={item.frontmatter.new_tab}
           delay={index * 300}
         />
       ))}

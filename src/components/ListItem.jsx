@@ -3,6 +3,7 @@ import typeWrite from "../scripts/typeWrite";
 
 export default function ListItem({
   url,
+  new_tab = null,
   img_src = "/lambda.png",
   img_alt = "lambda",
   title,
@@ -22,7 +23,7 @@ export default function ListItem({
 
   return (
     <li class="flex justify-center mb-6 font-mono min-h-[200px] hover:scale-105 transition-transform">
-      <a class="" href={url}>
+      <a class="" href={url} target={new_tab ? "_blank" : "_self"}>
         <div class="flex flex-col sm:flex-row w-[280px] sm:w-[580px] md:w-[700px] lg:w-[800px] border-b-2 border-gray">
           <img
             src={img_src}

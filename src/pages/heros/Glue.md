@@ -1,5 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
+url: https://www.google.com
+new_tab: true,
 title: "Glue"
 pubDate: 2022-07-01
 description: "This is the first post of my new Astro blog."
