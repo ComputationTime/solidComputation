@@ -1,8 +1,26 @@
 ---
+import Layout from "./Layout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<h1>{frontmatter.title}</h1>
-<img src={frontmatter.image.url} alt={frontmatter.image.alt} />
-<p>Written by {frontmatter.author}</p>
-<slot />
+<Layout>
+  <div
+    class="w-[280px] sm:w-[580px] md:w-[700px] lg:w-[900px] xl:[1000px] mx-auto leading-10 text-md sm:text-xl sm:text-justify mb-20"
+  >
+    <h1 class="text-center text-3xl font-mono font-thin mt-20">
+      {frontmatter.title}
+    </h1>
+    {
+      frontmatter.image.url && (
+        <img
+          src={frontmatter.image.url}
+          alt={frontmatter.image.alt}
+          class="mx-auto border-2 my-10"
+        />
+      )
+    }
+    <p class="text-">
+      <slot />
+    </p>
+  </div>
+</Layout>
