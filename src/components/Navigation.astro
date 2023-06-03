@@ -8,7 +8,7 @@ const nav_options = [
 ---
 
 <div
-  class="flex justify-between md:px-20 py-10 max-w-[3000px] text-lg sm:text-3xl mx-auto text-center font-mono font-thin"
+  class="flex sm:justify-between flex-wrap md:px-20 py-10 max-w-[3000px] text-lg sm:text-3xl mx-auto text-center font-mono font-thin"
 >
   <div></div>
   {
@@ -17,7 +17,7 @@ const nav_options = [
         href={nav_option.href}
         target={nav_option.new_page ? "_blank" : "_self"}
         class={
-          "flex-1 underline underline-offset-[9px] decoration-[1.5px] transition-all hover:decoration-black hover:scale-105 duration-300 " +
+          "flex-1 mx-5 my-2 underline underline-offset-[9px] decoration-[1.5px] transition-all hover:decoration-black hover:scale-105 duration-300 " +
           (Astro.url.pathname == nav_option.href
             ? "decoration-black"
             : "decoration-transparent")
