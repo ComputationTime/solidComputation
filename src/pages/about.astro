@@ -6,11 +6,9 @@ import Social from "../components/Social.astro";
 
 const page_title = "About Me";
 const paragraphs = [
-  `I'm a code addict, a science lover, and a math enthusiast. 
-  Data, computing, and engineering are some of my favorite things in the world. 
-  Technology has an incredible potential to help others and create sevices enjoyed
-  by many. I'm happy to live today when we have so many resources and so much yet to
-  accomplish.`,
+  `I'm a passionate code addict, science lover, and math enthusiast. Data, computing, and engineering are some of my favorite things in the world. I am thrilled to witness the incredible potential of technology in helping others and creating services enjoyed by many.`,
+
+  `Living in this era of abundant resources and endless opportunities, I am driven to accomplish great things. I embrace the challenges and discoveries that come my way, constantly pushing myself to learn and grow.`,
 ];
 const socials = [
   { platform: "github", url: "https://github.com/ComputationTime" },
@@ -32,8 +30,8 @@ const socials = [
   <div
     class="w-[280px] sm:w-[580px] md:w-[700px] lg:w-[900px] mx-auto leading-10 text-md sm:text-xl sm:text-justify mb-20"
   >
-    {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-    <div class="flex flex-row justify-center mt-10">
+    {paragraphs.map((paragraph) => <p class="indent-10 mb-2">{paragraph}</p>)}
+    <div class="flex flex-row justify-center mt-8">
       {
         socials.map((social) => (
           <Social url={social.url} platform={social.platform} width="30px" />
