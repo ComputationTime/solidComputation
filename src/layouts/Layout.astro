@@ -20,7 +20,7 @@ const page_title = Astro.props.page_title;
     <meta name="generator" content={Astro.generator} />
     <title>{page_title}</title>
   </head>
-  <body>
+  <body class="min-h-[100vh] min-w-[100vw] table">
     <Header />
     <slot />
   </body>
