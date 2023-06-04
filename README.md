@@ -1,6 +1,6 @@
 # Personal Website
 
-This website can be found at <a href="https://computationtime.com">www.computationtime.com</a>. It was a pleasure to build it using astro, solidjs, and tailwind. I really liked this stack. It is automatically deployed to cloudflare pages with each push.
+This website can be found at <a href="https://computationtime.com" target="_blank">www.computationtime.com</a>. It was a pleasure to build it using astro, solidjs, and tailwind. I really liked this stack. It is automatically deployed to cloudflare pages with each push.
 
 ## 🧰 Tools
 
