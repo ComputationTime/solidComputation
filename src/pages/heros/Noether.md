@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Emmy Noether"
 url: https://en.wikipedia.org/wiki/Emmy_Noether
 new_tab: true

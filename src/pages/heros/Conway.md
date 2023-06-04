@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "John Conway"
 url: https://en.wikipedia.org/wiki/John_Horton_Conway
 new_tab: true

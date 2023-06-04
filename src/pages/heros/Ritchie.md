@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Dennis Ritchie"
 url: https://en.wikipedia.org/wiki/Dennis_Ritchie
 new_tab: true

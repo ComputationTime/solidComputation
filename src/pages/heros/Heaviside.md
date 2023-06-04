@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Oliver Heaviside"
 url: https://en.wikipedia.org/wiki/Oliver_Heaviside
 new_tab: true

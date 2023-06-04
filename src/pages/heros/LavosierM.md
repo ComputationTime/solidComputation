@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Marie-Anne Paulze Lavoisier"
 url: https://en.wikipedia.org/wiki/Marie-Anne_Paulze_Lavoisier
 new_tab: true

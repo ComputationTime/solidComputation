@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Guido van Rossum"
 url: https://en.wikipedia.org/wiki/Guido_van_Rossum
 new_tab: true

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Marie Curie"
 url: https://en.wikipedia.org/wiki/Marie_Curie
 new_tab: true

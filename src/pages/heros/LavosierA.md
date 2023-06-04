@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Antoine Lavosier"
 url: https://en.wikipedia.org/wiki/Antoine_Lavosier
 new_tab: true

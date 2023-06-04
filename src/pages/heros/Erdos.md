@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Paul Erdős"
 url: https://en.wikipedia.org/wiki/Paul_Erdos
 new_tab: true

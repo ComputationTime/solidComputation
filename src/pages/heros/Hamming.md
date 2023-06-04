@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Richard Hamming"
 url: https://en.wikipedia.org/wiki/Richard_Hamming
 new_tab: true

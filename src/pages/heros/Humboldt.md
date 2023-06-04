@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Alexander von Humboldt"
 url: https://en.wikipedia.org/wiki/Alexander_von_Humboldt
 new_tab: true

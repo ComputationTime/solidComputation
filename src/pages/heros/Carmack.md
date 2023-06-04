@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "John Carmack"
 url: https://en.wikipedia.org/wiki/John_Carmack
 new_tab: true

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Ken Thompson"
 url: https://en.wikipedia.org/wiki/Ken_Thompson
 new_tab: true

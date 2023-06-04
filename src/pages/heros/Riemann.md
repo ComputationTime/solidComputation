@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Bernhard Riemann"
 url: https://en.wikipedia.org/wiki/Bernhard_Riemann
 new_tab: true

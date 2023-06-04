@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Srinivasa Ramanujan"
 url: https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
 new_tab: true

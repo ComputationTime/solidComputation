@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Joseph Fourier"
 url: https://en.wikipedia.org/wiki/Joseph_Fourier
 new_tab: true

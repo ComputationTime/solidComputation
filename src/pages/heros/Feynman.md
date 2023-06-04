@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Richard Feynman"
 url: https://en.wikipedia.org/wiki/Richard_Feynman
 new_tab: true

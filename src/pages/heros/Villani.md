@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Cedric Villani"
 url: https://en.wikipedia.org/wiki/Cedric_Villani
 new_tab: true

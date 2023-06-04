@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Donald Knuth"
 url: https://en.wikipedia.org/wiki/Donald_Knuth
 new_tab: true

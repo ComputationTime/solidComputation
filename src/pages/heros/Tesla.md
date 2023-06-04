@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Nikola Tesla"
 url: https://en.wikipedia.org/wiki/Nikola_Tesla
 new_tab: true

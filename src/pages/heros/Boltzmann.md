@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Ludwig Boltzmann"
 url: https://en.wikipedia.org/wiki/Ludwig_Boltzmann
 new_tab: true

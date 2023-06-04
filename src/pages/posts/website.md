@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "This Website"
 url: https://github.com/ComputationTime/solidComputation
 new_tab: true

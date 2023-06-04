@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "John Bardeen"
 url: https://en.wikipedia.org/wiki/John_Bardeen
 new_tab: true

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Harry Nyquist"
 url: https://en.wikipedia.org/wiki/Harry_Nyquist
 new_tab: true

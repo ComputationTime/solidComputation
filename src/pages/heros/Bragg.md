@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Lawrence Bragg"
 url: https://en.wikipedia.org/wiki/Lawrence_Bragg
 new_tab: true

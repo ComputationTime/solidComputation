@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Claude Shannon"
 url: https://en.wikipedia.org/wiki/Claude_Shannon
 new_tab: true

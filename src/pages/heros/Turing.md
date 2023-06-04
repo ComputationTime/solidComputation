@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "Alan Turing"
 url: https://en.wikipedia.org/wiki/Alan_Turing
 new_tab: true

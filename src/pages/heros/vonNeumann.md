@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "John von Neumann"
 url: https://en.wikipedia.org/wiki/John_von_Neumann
 new_tab: true

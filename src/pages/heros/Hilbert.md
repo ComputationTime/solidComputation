@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/MarkdownPostLayout.astro"
 title: "David Hilbert"
 url: https://en.wikipedia.org/wiki/David_Hilbert
 new_tab: true
