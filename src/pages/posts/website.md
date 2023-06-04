@@ -1,5 +1,5 @@
 ---
-title: "This Website"
+title: "This Website: computationtime.com"
 url: https://github.com/ComputationTime/solidComputation
 new_tab: true
 image:
